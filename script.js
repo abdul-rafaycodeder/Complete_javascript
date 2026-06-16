@@ -3,7 +3,8 @@
 // ^^^^^^^^^^^^^^^^^^^^^
 
 //* First "var"
-
-var a = 10;
-let a = 20;
-console.log(object)
+var a; // Delcare karna
+var b = 10; // Delcare and intialize
+//* Second "let"
+let a; // Delcare karna
+let b = 10; // Delcare and intialize
