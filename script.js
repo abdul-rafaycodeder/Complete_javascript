@@ -3,17 +3,32 @@
 // ^^^^^^^^^^^^^^^^^^^^^
 
 //! First "var"
-var a; // Delcare karna
-var b = 10; // Delcare and intialize
-var // Function scoped hota hai
-var // You can redelcare and reintialize
+// var a; // Delcare karna
+// var b = 10; // Delcare and intialize
+// var // Function scoped hota hai
+// var // You can redelcare and reintialize
 
-//! Second "let"
-let c; // Delcare karna
-let d = 10; // Delcare and intialize
-let // You can just reintialize
+// //! Second "let"
+// let c; // Delcare karna
+// let d = 10; // Delcare and intialize
+// let // You can just reintialize
+// let // block scope
 
+// //! third "const"
+// const a; // sahi nahi hai
+// const // Delcare and intialize
+// const // block scope
 
-var name = 'rafay';
+//! Scope (global, block, functional)
+//* global scope
+var a = 'rafay'
 
-console.log(window)
+//* block scope
+{
+    let a = 'rafay';
+}
+
+//* functional scope
+function name() {
+    var a = "rafay";
+}
