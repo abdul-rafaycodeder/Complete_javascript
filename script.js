@@ -32,3 +32,4 @@ var a = 'rafay'
 function name() {
     var a = "rafay";
 }
+
