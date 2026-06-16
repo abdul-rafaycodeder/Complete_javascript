@@ -33,3 +33,16 @@ function name() {
     var a = "rafay";
 }
 
+// function name() {
+//     console.log(age)
+// }
+// name()  
+
+console.log(age)
+var age = 10;
+
+// connot access 'age' before intialization
+
+
+
+intialization
