@@ -2,6 +2,8 @@
 //* var let const
 // ^^^^^^^^^^^^^^^^^^^^^
 
+const { cacheSignal } = require("react");
+
 //! First "var"
 // var a; // Delcare karna
 // var b = 10; // Delcare and intialize
@@ -33,4 +35,5 @@ function name() {
     var a = "rafay";
 }
 
-
+var age = 'rafay';
+console.log(age)
