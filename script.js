@@ -2,7 +2,7 @@
 //* var let const
 // ^^^^^^^^^^^^^^^^^^^^^
 
-const { cacheSignal } = require("react");
+
 
 //! First "var"
 // var a; // Delcare karna
@@ -22,18 +22,42 @@ const { cacheSignal } = require("react");
 // const // block scope
 
 //! Scope (global, block, functional)
-//* global scope
-var a = 'rafay'
+// //* global scope
+// var a = 'rafay'
 
-//* block scope
+// //* block scope
+// {
+//     let a = 'rafay';
+// }
+
+// //* functional scope
+// function name() {
+//     var a = "rafay";
+// }
+
+// var age = 'rafay';
+// console.log(age)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     let a = 'rafay';
 }
-
-//* functional scope
-function name() {
-    var a = "rafay";
-}
-
-var age = 'rafay';
-console.log(age)
+console.log(a)
