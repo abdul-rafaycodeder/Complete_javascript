@@ -2,8 +2,6 @@
 //* var let const
 // ^^^^^^^^^^^^^^^^^^^^^
 
-
-
 //! First "var"
 // var a; // Delcare karna
 // var b = 10; // Delcare and intialize
@@ -44,20 +42,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-    let a = 'rafay';
-}
-console.log(a)
