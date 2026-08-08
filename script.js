@@ -1,60 +1,23 @@
 //! JavaScrirpt Variables
-//* var let const
+//* var, let, const
 // ^^^^^^^^^^^^^^^^^^^^^
 
 //! First "var"
-// var a; // Delcare karna
-// var b = 10; // Delcare and intialize
-// var // Function scoped hota hai
-// var // You can redelcare and reintialize
+// var a;         //* Delcare karna
+// var b = 10;    //* Delcare and intialize
+// var            //* Function scoped hota hai
+// var            //* You can redelcare and reintialize
 
-// //! Second "let"
-// let c; // Delcare karna
-// let d = 10; // Delcare and intialize
-// let // You can just reintialize
-// let // block scope
+//! Second "let"
+// let c;         //* Delcare karna
+// let d = 10;    //* Delcare and intialize
+// let            //* block scope hota hai
+// let            //* You can just reintialize
 
-// //! third "const"
-// const a; // sahi nahi hai
-// const // Delcare and intialize
-// const // block scope
+//! third "const"
+// const a;       //* Esa declare karna allowed nahi hai
+// const b = 10;  //* Delcare and intialize
+// const          //* block scope hota hai
+// const          //* You can not reintialize and redeclare
 
-//! Scope (global, block, functional)
-// //* global scope
-// var a = 'rafay'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var a;
-// console.log(a)
-// a = 10;
-
-// let a;
-// console.log(a)
-// a = 10;
-
-// const a;
-// console.log(a)
-// a = 10;
 
