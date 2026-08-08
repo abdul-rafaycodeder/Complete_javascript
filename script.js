@@ -23,20 +23,38 @@
 // //* global scope
 // var a = 'rafay'
 
-// //* block scope
-// {
-//     let a = 'rafay';
-// }
-
-// //* functional scope
-// function name() {
-//     var a = "rafay";
-// }
-
-// var age = 'rafay';
-// console.log(ag
 
 
 
-const a = 1 - "1";
-console.log(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var a;
+// console.log(a)
+// a = 10;
+
+// let a;
+// console.log(a)
+// a = 10;
+
+// const a;
+// console.log(a)
+// a = 10;
+
