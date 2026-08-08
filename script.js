@@ -34,11 +34,9 @@
 // }
 
 // var age = 'rafay';
-// console.log(age)
+// console.log(ag
 
 
 
-
-
-
-
+const a = 1 - "1";
+console.log(a)
