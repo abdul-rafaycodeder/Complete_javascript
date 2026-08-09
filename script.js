@@ -24,3 +24,8 @@
 // const          //* You can not reintialize and redeclare
 // const          //* hoisting hota hai but you can not access it before initialization
 
+// ==>---------------------------------------------------------------------------------------------<== //
+
+//! Data Types
+// ^^^^^^^^^^^^^^^^^^^^^
+
