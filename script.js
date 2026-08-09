@@ -7,6 +7,7 @@
 // var b = 10;    //* Delcare and intialize
 // var            //* Function scoped hota hai
 // var            //* You can redelcare and reintialize
+// var            //* window object ke sath attach hota hai
 
 //! Second "let"
 // let c;         //* Delcare karna
