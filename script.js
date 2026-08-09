@@ -27,5 +27,6 @@
 // ==>---------------------------------------------------------------------------------------------<== //
 
 //! Data Types
-// ^^^^^^^^^^^^^^^^^^^^^
+// Primitives: string, number, boolean, null, undefined, symbol
+// reference: object, array, function
 
