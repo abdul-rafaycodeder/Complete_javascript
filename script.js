@@ -134,4 +134,12 @@
 // console.log(typeof []); // object
 
 // Array check karne ka correct method:
-// console.log(Array.isArray([])); // tru
+// console.log(Array.isArray([])); // true
+
+//! ==> JavaScript operators <== //
+//* Arithmetic Operators: ( +, -, *, /, %, ++, -- )
+//* Assignment Operators: ( =, +=, -=, *=, /=, %= )
+//* Comparison Operators: ( ==, ===, !=, !==, >, <, >=, <= )
+//* Logical Operators: ( &&, ||, ! )
+//* unary Operators: ( typeof, void, delete )
+//* ternary Operators: ( condition ? expr1 : expr2 )
