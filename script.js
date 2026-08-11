@@ -252,14 +252,23 @@
 
 // console.log(result);
 
-let temperature = 35;
+// let temperature = 35;
 
-let result = temperature >= 40
-    ? "Very Hot"
-    : temperature >= 30
-    ? "Hot"
-    : temperature >= 20
-    ? "Normal"
-    : "Cold";
+// let result = temperature >= 40
+//     ? "Very Hot"
+//     : temperature >= 30
+//     ? "Hot"
+//     : temperature >= 20
+//     ? "Normal"
+//     : "Cold";
+
+// console.log(result);
+
+let a = 15;
+let b = 4;
+
+let result = a % b === 0
+    ? "Divisible"
+    : "Not Divisible";
 
 console.log(result);
