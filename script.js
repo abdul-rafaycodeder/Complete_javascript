@@ -273,12 +273,13 @@
 
 // console.log(result);
 
-let num = 12;
+// let num = 12;
 
-let result = num > 10
-    ? num % 2 === 0
-        ? "Greater than 10 and Even"
-        : "Greater than 10 and Odd"
-    : "10 or Less";
+// let result = num > 10
+//     ? num % 2 === 0
+//         ? "Greater than 10 and Even"
+//         : "Greater than 10 and Odd"
+//     : "10 or Less";
 
-console.log(result);
+// console.log(result);
+
