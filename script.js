@@ -220,10 +220,11 @@
 
 // console.log(result);
 
-let num = -8;
+// let num = -8;
 
-let result = num > 0
-    ? (num % 2 === 0 ? "Positive Even" : "Positive Odd")
-    : "Not Positive";
+// let result = num > 0
+//     ? (num % 2 === 0 ? "Positive Even" : "Positive Odd")
+//     : "Not Positive";
 
-console.log(result);
+// console.log(result);
+
