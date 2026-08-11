@@ -134,8 +134,4 @@
 // console.log(typeof []); // object
 
 // Array check karne ka correct method:
-// console.log(Array.isArray([])); // true
-
-
-
-     
+// console.log(Array.isArray([])); // tru
