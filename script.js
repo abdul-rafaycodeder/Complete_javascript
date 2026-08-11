@@ -137,9 +137,72 @@
 // console.log(Array.isArray([])); // true
 
 //! ==> JavaScript operators <== //
-//* Arithmetic Operators: ( +, -, *, /, %, ++, -- )
+//* Arithmetic Operators: ( +, -, *, **, /, %, ++, -- )
+//* Comparison Operators: ( =, ==, ===, !=, !==, >, <, >=, <= )
 //* Assignment Operators: ( =, +=, -=, *=, /=, %= )
-//* Comparison Operators: ( ==, ===, !=, !==, >, <, >=, <= )
 //* Logical Operators: ( &&, ||, ! )
 //* unary Operators: ( typeof, void, delete )
 //* ternary Operators: ( condition ? expr1 : expr2 )
+
+//!Arithmetic Operators
+//* +, -, *, **, /, %, ++, --
+// ( + ) adition karta hai or concatenate bhi karta hai
+// ( - ) subtraction karta hai
+// ( * ) multiplication karta hai
+// ( ** ) exponentiation karta hai
+// ( / ) division karta hai
+// ( % ) modules, modulo karta hai
+// ( ++ ) increment karta hai
+// ( -- ) decrement karta hai
+
+
+// console.log(10 + "11");    // "1011"
+// console.log(20 - 11);      // 9
+// console.log(10 * 2);       // 20
+// console.log(2 ** 3);       // 8
+// console.log(10 / 2);       // 5
+// console.log(10 % 3);       // 1
+// console.log(10++);         // 11
+// console.log(10--);         // 9
+// console.log(++10);         // 11
+// console.log(--10);         // 9
+
+//! Comparison Operators
+//* ==, ===, !=, !==, >, <, >=, <=
+// ( = ) assignment operator hai, variable ko value assign karta hai value dal ta hai
+// ( == ) values ko compare karta hai, type coercion ke saath
+// ( === ) values ko compare karta hai, type coercion ke bina
+// ( != ) not equal to hota hai, type coercion ke saath
+// ( !== ) strict not equal to hota hai, type coercion ke bina
+// ( > ) greater than hota hai
+// ( < ) less than hota hai
+// ( >= ) greater than or equal to hota hai
+// ( <= ) less than or equal to hota hai
+
+// console.log(10 == "11");   // true
+// console.log(10 === 10);    // true
+// console.log(10 != 10);     // false
+// console.log(10 !== 10);    // false
+// console.log(10 > 5);       // true
+// console.log(10 < 5);       // false
+// console.log(10 >= 5);      // true
+// console.log(10 <= 5);      // false
+
+
+// let x = 10;
+// let y = 20;
+
+// if (x > 5 && y < 30) {
+//     console.log("A");
+// } else{
+//     console.log("B");
+// }
+
+// let temp = 35;
+
+// if (!(temp < 30)) {
+//     console.log("Hot outside.");
+// } else {
+//     console.log("pleasant outside.");
+// }
+
