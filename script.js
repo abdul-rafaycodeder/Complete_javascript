@@ -228,3 +228,20 @@
 
 // console.log(result);
 
+// let age = 17;
+
+// let status = age >= 18
+//     ? "Adult"
+//     : age >= 13
+//     ? "Teenager"
+//     : "Child";
+
+// console.log(status);
+
+// let marks = 75;
+// let attendance = 80;
+
+// let result = marks >= 75 && attendance >= 80 ? "Pass" : "Fail";
+
+// console.log(result);
+
