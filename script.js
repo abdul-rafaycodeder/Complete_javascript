@@ -264,11 +264,21 @@
 
 // console.log(result);
 
-let a = 15;
-let b = 4;
+// let a = 15;
+// let b = 4;
 
-let result = a % b === 0
-    ? "Divisible"
-    : "Not Divisible";
+// let result = a % b === 0
+//     ? "Divisible"
+//     : "Not Divisible";
+
+// console.log(result);
+
+let num = 12;
+
+let result = num > 10
+    ? num % 2 === 0
+        ? "Greater than 10 and Even"
+        : "Greater than 10 and Odd"
+    : "10 or Less";
 
 console.log(result);
