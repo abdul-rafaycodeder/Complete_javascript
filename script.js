@@ -206,3 +206,17 @@
 //     console.log("pleasant outside.");
 // }
 
+// let marks = 78;
+
+// let result =
+//       marks
+//     >= 80
+//     ? "A+"
+//     : marks >= 70
+//     ? "A"
+//     : marks >= 60
+//     ? "B"
+//     : "Fail";
+
+// console.log(result);
+
