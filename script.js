@@ -245,9 +245,21 @@
 
 // console.log(result);
 
-let x = 10;
-let y = 20;
+// let rafayAge = 10;
+// let aliAge = 20;
 
-let result = x > y ? x : y;
+// let result = rafayAge > aliAge ? rafayAge : aliAge;
+
+// console.log(result);
+
+let temperature = 35;
+
+let result = temperature >= 40
+    ? "Very Hot"
+    : temperature >= 30
+    ? "Hot"
+    : temperature >= 20
+    ? "Normal"
+    : "Cold";
 
 console.log(result);
