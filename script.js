@@ -302,14 +302,17 @@
 //         return "Fail"
 //     }
 // }
-let a = 5;
-let b = 10;
-let c = 15;
+ 
 
-let result = a > b
-    ? a
-    : b > c
-        ? b
-        : c;
+let marks = 82;
+let attendance = 65;
+
+let result = marks >= 80
+    ? attendance >= 75
+        ? "A+ Pass"
+        : "A+ but Attendance Low"
+    : marks >= 50
+        ? "Pass"
+        : "Fail";
 
 console.log(result);
