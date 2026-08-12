@@ -302,17 +302,3 @@
 //         return "Fail"
 //     }
 // }
- 
-
-let marks = 82;
-let attendance = 65;
-
-let result = marks >= 80
-    ? attendance >= 75
-        ? "A+ Pass"
-        : "A+ but Attendance Low"
-    : marks >= 50
-        ? "Pass"
-        : "Fail";
-
-console.log(result);
